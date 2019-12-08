@@ -20,7 +20,7 @@ Given an input wild life video recording, the task is to output a processed vide
     video_frame.py - main code for video preprocessing
     model.h5 - trained model
     
- [One example of original video and processed video]() 
+ [One example of original video and processed video](https://drive.google.com/open?id=1B2y5jic5VSlAkqxGmo_nTrz5dMsr5OUz) 
 
 # Inference and Future work
 
