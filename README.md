@@ -16,10 +16,11 @@ Given an input wild life video recording, the task is to output a processed vide
 
 # Description
 
-classifier.py - CNN classifier to predict bird frames
-video_frame.py - main code for video preprocessing
-model.h5 - trained model
-One example of original video and processed video 
+    classifier.py - CNN classifier to predict bird frames
+    video_frame.py - main code for video preprocessing
+    model.h5 - trained model
+    
+ [One example of original video and processed video]() 
 
 # Inference and Future work
 
