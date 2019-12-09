@@ -2,11 +2,9 @@
 A pre-processing technique to automatically locate bird image frames from a long video data
 
 # Task
-
 Given an input wild life video recording, the task is to output a processed video that only have bird image frames
 
 # Method
-
 1. Collected wild life recordings from bird activity zones using Wingscapes Birdcam Pro camera.
 2. 60% of the video data is converted into image frames. Manually annotate bird image frames and background frames.
 3. In our dataset we have 4 different bird species and 6 different backgrounds.
@@ -20,7 +18,7 @@ Given an input wild life video recording, the task is to output a processed vide
     video_frame.py - main code for video preprocessing
     model.h5 - trained model
     
- [One example of original video and processed video](https://drive.google.com/open?id=1B2y5jic5VSlAkqxGmo_nTrz5dMsr5OUz) 
+ [One example of original video and processed video](https://drive.google.com/open?id=1PY21B81pWQzM4hRm3X5DbfvgkWEe0KYC) 
 
 # Inference and Future work
 
