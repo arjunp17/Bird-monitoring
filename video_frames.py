@@ -56,7 +56,7 @@ image_data = []
 # image resize
 def read_resize_images(input_path, image_file, image_data):
    for i in range(len(image_file)):
-      img = image.load_img(os.path.join(input_path,image_file[i]),target_size=(224,224))
+      img = image.load_img(os.path.join(input_path,image_file[i]),target_size=(224,224)) # input image size of the classifier
       img = image.img_to_array(img)
       image_data.append(img)
       
