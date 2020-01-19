@@ -1,8 +1,8 @@
 # Bird-monitoring
-A pre-processing technique to automatically locate bird image frames from a long video data
+Towards the development of a pre-processing technique to refine wildlife video recordings.
 
 # Task
-Given an input wild life video recording, the task is to output a processed video that only have bird image frames
+The cameras deployed for bird-monitoring has to function for prolonged hours. A huge manual effort is required to pre-process the recordings prior to use the data for bird classification and detection problems. To automate the pre-processing phase, I have implemented a simple convolutional neural network (CNN) based image classification model to differentiate bird-activity frames from background frames. Given an input wildlife video recording, the task is to output a processed video that contains only bird activity frames.
 
 # Method
 1. Collected wild life recordings from bird activity zones using Wingscapes Birdcam Pro camera.
@@ -22,4 +22,4 @@ Given an input wild life video recording, the task is to output a processed vide
 
 # Inference and Future work
 
-The CNN binary classifier can learn the properties of bird parts and is good to discriminate between bird image frames and backgrounds. In case of extended backgrounds and bird species from other recordings (eg. far field recordings) it is easier to finetune this model on new set of birds and backgrounds.
+Inferences: The CNN based classifier can learn the properties of bird parts and is good enough to discriminate between bird image frames and backgrounds. In case of extended backgrounds and bird species from different recordingconditions (eg. far-field recordings), it is easier to finetune this model on a new set of birds and backgrounds.
